@@ -28,7 +28,8 @@ public class Component3Activity extends AppCompatActivity {
                 String cadena = editMultilineC.getText().toString();
                 System.out.println("Hola Mundo");
                 Log.d("univalle", cadena);
-                Intent intent = new Intent(Component3Activity.this, MainActivity4.class);
+
+                Intent intent = new Intent(Component3Activity.this, Lista3Activity.class);
                 startActivity(intent);
                 //finish();
             }
