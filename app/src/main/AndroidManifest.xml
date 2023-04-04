@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.ub.controller">
+    package="org.ub.controller" >
 
     <application
         android:allowBackup="true"
@@ -8,34 +8,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name=".ListView3Activity"
-            android:exported="true">
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".Component3Activity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
+            android:name=".ComponentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListView3Activity"
+            android:exported="true" />
+        <activity
             android:name=".ListViewSimpleActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".ListViewActivity"
             android:exported="false" />
         <activity
             android:name=".SelectActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SeleccionActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
