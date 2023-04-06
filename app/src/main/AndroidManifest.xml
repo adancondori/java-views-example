@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ListaNuevaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExamenActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lista3Activity"
             android:exported="false" />
         <activity
@@ -20,6 +26,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

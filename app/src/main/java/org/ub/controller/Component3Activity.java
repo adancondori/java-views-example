@@ -29,7 +29,7 @@ public class Component3Activity extends AppCompatActivity {
                 System.out.println("Hola Mundo");
                 Log.d("univalle", cadena);
 
-                Intent intent = new Intent(Component3Activity.this, Lista3Activity.class);
+                Intent intent = new Intent(Component3Activity.this, ListaNuevaActivity.class);
                 startActivity(intent);
                 //finish();
             }
